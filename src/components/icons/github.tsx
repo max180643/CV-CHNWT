@@ -6,7 +6,7 @@ export interface GithubProps {
 
 export const Github: React.FC<GithubProps> = (props) => {
   const { size } = props
-  
+
   return (
     <Fragment>
       <span className='sr-only'>GitHub</span>

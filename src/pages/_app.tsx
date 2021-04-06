@@ -7,7 +7,7 @@ import Head from 'next/head'
 
 import 'tailwindcss/tailwind.css'
 
-const NextApp: NextPage<AppProps> = props => {
+const NextApp: NextPage<AppProps> = (props) => {
   const { Component, pageProps } = props
 
   return (

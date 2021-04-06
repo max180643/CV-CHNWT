@@ -6,7 +6,7 @@ export interface LinkedinProps {
 
 export const Linkedin: React.FC<LinkedinProps> = (props) => {
   const { size } = props
-  
+
   return (
     <Fragment>
       <span className='sr-only'>Linkedin</span>

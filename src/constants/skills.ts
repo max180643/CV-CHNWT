@@ -15,5 +15,5 @@ export const Skills: Skill[] = [
   'UiPath',
   'Selenium',
   'Puppeteer',
-  'PostgreSQL'
+  'PostgreSQL',
 ]
