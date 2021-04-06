@@ -2,5 +2,15 @@ version: '3.9'
 services:
   web:
     build: .
-    ports:
-      - '3000:3000'
+    container_name: cv-chnwt
+    networks:
+      - gateway
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.docker.network=gateway'
+      - 'traefik.http.routers.cv-chnwt.entrypoints=https'
+      - 'traefik.http.routers.cv-chnwt.rule=Host(`cv.chnwt.dev`)'
+
+networks:
+  gateway:
+    external: true
