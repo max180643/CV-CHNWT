@@ -1,10 +1,10 @@
-module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.tsx', './src/**/*.ts', './src/**/*.jsx', './src/**/*.js'],
-  darkMode: false,
-  theme: {
+export default {
+  plugins: [],
+    theme: {
     extend: {
       fontFamily: {
-        Montserrat: ['Lato', 'sans-serif', 'ui-sans-serif', 'system-ui', '-apple-system'],
+        Lato: ["Lato", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif"]
       },
       colors: {
         primary: '#85CB33',
@@ -13,8 +13,9 @@ module.exports = {
       },
     },
   },
+  purge: ["./index.html",'./src/**/*.{svelte,js,ts}'], // for unused CSS
   variants: {
     extend: {},
   },
-  plugins: [],
+  darkMode: false,
 }
