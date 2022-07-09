@@ -1,5 +1,6 @@
 <script lang="ts">
   import TailwindCSS from "./lib/TailwindCSS.svelte";
+  import Work from "./lib/Work.svelte";
   import Intern from "./lib/Intern.svelte";
   import Education from "./lib/Education.svelte";
   import Skill from "./lib/Skill.svelte";
@@ -16,8 +17,11 @@
       Chanwit Settavongsin
     </p>
     <div>
-      <p class="text-primary text-xl tracking-wide">Junior Developer</p>
+      <p class="text-primary text-xl tracking-wide">
+        Application Development Officer at Thai Beverage PLC
+      </p>
     </div>
+    <Work />
     <Intern />
     <Education />
     <Skill />
