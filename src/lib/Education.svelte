@@ -11,7 +11,7 @@
       </a>
       <p class="text-secondary text-base">
         {`${level}${info !== null ? `, ${info}` : ""} | ${year.start} - ${
-          year.end === null ? "Now" : year.end
+          year.end === null ? "Present" : year.end
         }`}
       </p>
     </div>

@@ -18,7 +18,7 @@
     </p>
     <div>
       <p class="text-primary text-xl tracking-wide">
-        Application Development Officer at Thai Beverage PLC
+        Application Development Officer at TCC Technology
       </p>
     </div>
     <Work />

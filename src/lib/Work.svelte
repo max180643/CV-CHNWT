@@ -11,7 +11,7 @@
       </a>
       <p class="text-secondary text-base">
         {`${position} | ${period.start} - ${
-          period.end === null ? "Now" : period.end
+          period.end === null ? "Present" : period.end
         }`}
       </p>
     </div>

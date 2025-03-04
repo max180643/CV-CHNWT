@@ -1,20 +1,20 @@
-export type Skill = string
+export type Skill = string;
 
 export const Skills: Skill[] = [
-  'JavaScript',
-  'NodeJS',
-  'React',
-  'React Native',
-  'TypeScript',
-  'Next.js',
-  'Svelte',
-  'Firebase',
-  'ExpressJS',
-  'Fastify',
-  'SQL',
-  'MongoDB',
-  'Python',
-  'UiPath',
-  'Docker',
-  'GraphQL'
-]
+  "Go",
+  "JavaScript",
+  "ASP.NET Core",
+  "NodeJS",
+  "React",
+  "React Native",
+  "TypeScript",
+  "Next.js",
+  "Svelte",
+  "ExpressJS",
+  "SQL",
+  "MongoDB",
+  "Python",
+  "Docker",
+  "GraphQL",
+  "Kafka",
+];
